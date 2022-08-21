@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "df2d804a-924e-4946-bae9-0668c7d46350",
+		"name": "Weather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Weather_Tests",
+			"_postman_id": "38aca4d3-a649-49cb-9bb4-96ea36805320",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "client_secret=RjlBNDFCRTQtQjA0QS00OEM4LUE1MzQtQUE5NEFCOUU1NUU4&client_id=3B118152BB6B43B&grant_type=client_credentials",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": "https://api-omnichannel-dev.azure-api.net/v2.1/oauth/token",
+				"description": "To test the weather"
+			},
+			"response": []
+		}
+	]
+}
